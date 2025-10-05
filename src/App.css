@@ -11,6 +11,10 @@ body {
   margin-top: 50px;
 }
 
+.markdown-text {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .text-input {
   margin-top: 50px;
   height: 200px;
