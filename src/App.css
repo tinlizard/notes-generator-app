@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+}
+
+.main {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.text-input {
+  margin-top: 50px;
+  height: 200px;
+  width: 1000px;
+  border-radius: 10px;
+  outline: 2px solid black;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.file-uploader {
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  border-radius: 25px;
+  background-color: black;
+  outline: 2px solid white;
+  color: white; 
+  border: 0;
+  background: none;
+  box-shadow: none;
+}
+
+.file-uploader:hover {
+  background-color: grey;
+}
